@@ -1,6 +1,6 @@
-const core = required("@actions/core");
-const github = required("@actions/github");
-const exec = required("@actions/exec");
+const core = require("@actions/core");
+const github = require("@actions/github");
+const exec = require("@actions/exec");
 
 function run() {
   core.notice("Hello from my JavaScript Action!"); //mensagem de log
