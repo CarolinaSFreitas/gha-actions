@@ -11,6 +11,10 @@ inputs:
   dist-folder:
     description: 'The folder to deploy to the S3 bucket.'
     required: true
+outputs:
+  website-url:
+    description: 'The URL of the deployed website.'
+    
 runs:
   using: 'node16'     #usando node como runtime
   main: 'main.js'  #usando deploy.js como main, que é o script que será executado para fazer o deploy através desta action
