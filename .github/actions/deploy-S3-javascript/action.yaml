@@ -1,0 +1,6 @@
+name: 'Deploy to AWS S3'
+description: 'Deploy a statis website to an AWS S3 bucket.'
+runs:
+  using: 'node16'     #usando node como runtime
+  main: 'main.js'  #usando deploy.js como main, que é o script que será executado para fazer o deploy através desta action
+  
